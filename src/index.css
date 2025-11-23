@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.forShadow{
+    box-shadow: 10px 10px 19px #1c1e22, 
+                -10px -10px 19px #262a2e;
+    border-radius: 6px;
+    transition: all .5s;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+}
+.forShadowHover:hover{
+    box-shadow: 10px 10px 19px #1c1e22, 
+                -10px -10px 19px #262a2e;
+    border-radius: 6px;
+    transition: all .5s;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+}
+.forShadow:hover{
+    transform: translateY(-5px);
+    background-color: #1e2024 !important;
+    background: linear-gradient(145deg, #23272b,#1e2024);
+}
+
+.myInput{
+    box-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;;
+    border-radius: 6px;
+    background-color: #191b1e;
+    font-size: 14px;
+    color: #c4cfde !important;
+    padding:10px;
+    border: 2px solid #191b1e;
+    outline: none;
+}
