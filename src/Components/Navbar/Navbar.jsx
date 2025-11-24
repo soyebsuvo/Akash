@@ -16,7 +16,7 @@ export default function Navbar() {
     <li onClick={handleGoToTop}><a>Home</a></li>
     {/* <li><a href="#service">Service</a></li> */}
     <li><a href="#about">About</a></li>
-    <li><a href="#projects">Projects</a></li>
+    <li><a href="#projects">Tours</a></li>
     {/* <li><a href="#testimonials">Testimonial</a></li> */}
     <li><a href="#contact">Contact</a></li>
   </>
@@ -62,7 +62,7 @@ export default function Navbar() {
         <li className="ml-3 py-2" onClick={handleGoToTop}><a>Home</a></li>
         {/* <li onClick={handleToggle} className="ml-3 py-2"><a href="#service">Service</a></li> */}
         <li onClick={handleToggle} className="ml-3 py-2"><a href="#about">About</a></li>
-        <li onClick={handleToggle} className="ml-3 py-2"><a href="#projects">Projects</a></li>
+        <li onClick={handleToggle} className="ml-3 py-2"><a href="#projects">Tours</a></li>
         {/* <li onClick={handleToggle} className="ml-3 py-2"><a href="#testimonials">Testimonial</a></li> */}
         <li onClick={handleToggle} className="ml-3 py-2"><a href="#contact">Contact</a></li>
       </ul>
