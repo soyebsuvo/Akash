@@ -30,16 +30,16 @@ export default function Banner() {
                 <div className="md:w-1/2 px-4">
                     <h3 style={{ letterSpacing: "3px" }} className="text-gray-300 uppercase font-Montserrat text-sm">Welcome to my world</h3>
                     <h2 className="text-3xl md:text-5xl text-white font-Montserrat font-bold pt-2 md:pt-3 pb-2">Hi, I&apos;m <span className="text-[#FF014F]">Akash</span></h2>
-                    {/* <h2 className="text-3xl md:text-5xl text-white font-Montserrat font-bold pt-0 md:pt-3 pb-2">a&nbsp;
+                    <h2 className="text-3xl md:text-5xl text-white font-Montserrat font-bold pt-0 md:pt-3 pb-2">
                         <TypeAnimation
                             sequence={[
-                                'Web Developer', // Types 'One'
+                                'Trust Yourself', // Types 'One'
                                 1000, // Waits 1s
-                                'Web Designer', // Deletes 'One' and types 'Two'
+                                'Work Hard', // Deletes 'One' and types 'Two'
                                 1000, // Waits 2s
-                                'UI/UX Designer', // Types 'Three' without deleting 'Two'
+                                'Earn Money', // Types 'Three' without deleting 'Two'
                                 1000,
-                                'Professional Coder',
+                                'Enjoy Your Life',
                                 1000,
                             ]}
                             wrapper="span"
@@ -47,7 +47,7 @@ export default function Banner() {
                             repeat={Infinity}
                             style={{ display: 'inline-block' }}
                         />
-                    </h2> */}
+                    </h2>
                     <p className="text-gray-300 text-sm mt-3">As a History Honors 3rd-year student, I am dedicated to studying human stories, cultures, and transformations across time. My goal is to build knowledge, sharpen my research skills, and share valuable perspectives.</p>
                     {/* <div className="mt-8 cursor-pointer">
                         <a href={resume} download className="forShadow py-2 px-8 text-gray-300 flex justify-center items-center gap-2 w-fit">Resume <FaDownload /></a>
