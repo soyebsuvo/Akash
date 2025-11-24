@@ -58,7 +58,7 @@ export default function Banner() {
                             <div className="flex gap-3">
                                 <a href="https://web.facebook.com/akashchowdhuryi" target="_blank" className="p-4 forShadow"><FiFacebook className="text-white text-xl" /></a>
                                 <a href="https://www.instagram.com/akashchowdhuryi" target="_blank" className="p-4 forShadow"><FiInstagram className="text-white text-xl" /></a>
-                                <a href="https://wa.me/01770717452" target="_blank" className="p-4 forShadow"><FaWhatsapp className="text-white text-xl" /></a>
+                                <a href="https://wa.me/+8801770717452" target="_blank" className="p-4 forShadow"><FaWhatsapp className="text-white text-xl" /></a>
                             </div>
                         </div>
                         {/* <div className="w-1/2">
